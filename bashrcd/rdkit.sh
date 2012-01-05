@@ -1,6 +1,6 @@
 function rdkit {
-	pushd $HOME/Development/RDKit-repo
+	pushd $HOME/devel/rdkit > /dev/null
 	source env.sh
-	popd
+	popd > /dev/null
 }
 
