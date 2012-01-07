@@ -10,6 +10,7 @@ else
 	export PS1='\[\033[01;36m\][\[\033[00;33m\]\! \[\033[00;31m\]mbp \[\033[00;32m\]\w\[\033[01;36m\]] \[\033[01;33m\]\n$ \[\033[00m\]'
 fi
 
+source $BASHRCD/encrypt.sh
 source $BASHRCD/r.sh
 source $BASHRCD/python.sh
 source $BASHRCD/vpnfix.sh
