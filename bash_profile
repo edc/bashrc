@@ -18,3 +18,5 @@ source $BASHRCD/aws.sh
 source $BASHRCD/bus.sh
 source $BASHRCD/rdkit.sh
 source $BASHRCD/quickssh.sh
+source $BASHRCD/history.sh
+test -e $HOME/.bash_profile.local && source $HOME/.bash_profile.local
