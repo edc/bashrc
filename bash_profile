@@ -1,6 +1,7 @@
 #vim:sytnax=sh
 BASHRCD=$HOME/.bashrcd
-export EDITOR=mvim -f
+export EDITOR="mvim -f"
+export GIT_EDITOR='vim'
 alias ls='ls -G'
 if [ `uname` == 'Darwin' ]; then export ARCHFLAGS="-arch i386 -arch x86_64"; fi
 if [ `id -u` -eq 0 ]
