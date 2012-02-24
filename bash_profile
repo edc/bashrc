@@ -20,4 +20,9 @@ source $BASHRCD/bus.sh
 source $BASHRCD/rdkit.sh
 source $BASHRCD/quickssh.sh
 source $BASHRCD/history.sh
+
+# add binutils folder to PATH
+BINUTILS=`dirname $BASHRCD`/$(dirname `readlink $BASHRCD`)/binutils
+export PATH=$PATH:$BINUTILS
+
 test -e $HOME/.bash_profile.local && source $HOME/.bash_profile.local
