@@ -1,3 +1,5 @@
 --type-set
 eco=.eco
 
+--type-set
+coffee=.coffee
