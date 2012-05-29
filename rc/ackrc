@@ -3,3 +3,6 @@ eco=.eco
 
 --type-set
 coffee=.coffee
+
+--type-set
+less=.less
